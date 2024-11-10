@@ -15,6 +15,7 @@ public class SessionListener implements HttpSessionListener {
         log.info("Session created: " + session.getId());
     }
 
+    //todo
     @Override
     public void sessionDestroyed(HttpSessionEvent se) {
         HttpSession session = se.getSession();

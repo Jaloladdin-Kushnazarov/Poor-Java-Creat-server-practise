@@ -20,6 +20,7 @@ public class AuthFilter extends HttpFilter {
             "/auth/login",
             "/auth/logout"
     };
+    //todo
 
     @Override
     protected void doFilter(HttpServletRequest req, HttpServletResponse res, FilterChain chain) throws IOException, ServletException {
